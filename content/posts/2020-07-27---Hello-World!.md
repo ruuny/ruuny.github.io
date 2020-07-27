@@ -11,4 +11,4 @@ description: "A greeting to the world"
 socialImage: "/media/42-line-bible.jpg"
 ---
 
-Hello Worldsss!
+sHello Worldsss!
