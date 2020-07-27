@@ -1,9 +1,9 @@
 'use strict';
 
 module.exports = {
-  url: 'https://bglgwyng.github.io/',
+  url: 'https://enrunny.github.io/',
   pathPrefix: '/',
-  title: 'Blog by bglgwyng',
+  title: 'Blog by ruuny',
   subtitle: '',
   copyright: '© All rights reserved.',
   disqusShortname: '',
@@ -25,15 +25,15 @@ module.exports = {
     }
   ],
   author: {
-    name: 'bglgwyng',
+    name: 'ruuny',
     photo: '/photo.jpg',
     bio: '',
     contacts: {
-      email: 'bglgwyng@gmail.com',
+      email: 'enrunny@gmail.com',
       facebook: '',
       telegram: '',
       twitter: '',
-      github: 'bglgwyng',
+      github: 'ruuny',
       rss: '',
       vkontakte: '',
       linkedin: '',
