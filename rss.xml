@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by ruuny]]></title><description><![CDATA[Blog by ruuny]]></description><link>https://runny.github.io/</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 16 Jan 2021 13:28:27 GMT</lastBuildDate><item><title><![CDATA[JS0 일차!!]]></title><description><![CDATA[JS day0]]></description><link>https://runny.github.io//posts/JS_project</link><guid isPermaLink="false">https://runny.github.io//posts/JS_project</guid><pubDate>Sat, 16 Jan 2021 09:37:25 GMT</pubDate><content:encoded>&lt;h1 id=&quot;js0일차&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#js0%EC%9D%BC%EC%B0%A8&quot; aria-label=&quot;js0일차 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;JS0일차&lt;/h1&gt;
+&lt;h2 id=&quot;웹서버란&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%9B%B9%EC%84%9C%EB%B2%84%EB%9E%80&quot; aria-label=&quot;웹서버란 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;웹서버란?😛&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;웹 서버 : &lt;a href=&quot;https://ko.wikipedia.org/wiki/%EC%9B%B9_%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;웹 브라우저&lt;/a&gt;와 같은 클라이언트로부터 &lt;a href=&quot;https://ko.wikipedia.org/wiki/HTTP&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;HTTP&lt;/a&gt; 요청을 받아들이고, &lt;a href=&quot;https://ko.wikipedia.org/wiki/HTML&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;HTML&lt;/a&gt; 문서와 같은 웹 페이지를 반환하는 &lt;a href=&quot;https://ko.wikipedia.org/wiki/%EC%BB%B4%ED%93%A8%ED%84%B0_%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;컴퓨터 프로그램&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;웹 서버 (하드웨어) : 위에 언급한 기능을 제공하는 컴퓨터 프로그램을 실행하는 &lt;a href=&quot;https://ko.wikipedia.org/wiki/%EC%BB%B4%ED%93%A8%ED%84%B0&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;컴퓨터&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;웹 서버(Web Server)는 HTTP를 통해 웹 브라우저에서 요청하는 HTML 문서나 오브젝트(이미지 파일 등)을 전송해주는 서비스 프로그램을 말한다.&lt;/strong&gt; &lt;/p&gt;
+&lt;p&gt;웹 서버 소프트웨어를 구동하는 하드웨어도 웹 서버라고 해서 혼동하는 경우가 간혹 있다. 😢&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;HTTP요청을 받아 웹 페이지(css,js를 포함한 HTML 문서)를 클라이언트로 전달하는 것.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h1 id=&quot;런타임&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%9F%B0%ED%83%80%EC%9E%84&quot; aria-label=&quot;런타임 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;런타임?&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;프로그램이 실행되고 있는 동안의 동작&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;프로그램이 실행되고 있는 때 존재하는 곳, 프로그래밍 언어가 구동되는 환경&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;프로그램이 실행되는 동안의 시간&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;런타임 환경(Runtime Environment): 운영제체 위에서 또는 운영체제 자체에서 실행되며 위 계층이 사용하거나 필요한 서비스를 제공하는 환경 (ex. JRE (Java Runtime Environment))&lt;/p&gt;
+&lt;p&gt;런타임은 프로그램이 실행 되는 동안 실행 되는 소프트웨어 / 명령 , 특히 명시 적으로 작성하지 않았지만 코드를 올바르게 실행하는 데 필요한 명령을 설명합니다. 런타임은 코드가 실행되는 모든 라이브러리, 프레임 워크 또는 플랫폼을 나타내는 일반적인 용어입니다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;노드js는 무엇인가?&lt;/p&gt;
+&lt;p&gt;확장성 있는 네트워크 애플리케이션 개발에 사용되는 소프느웨어 플랫폼으로 자바스크립트를 사용하며, 비동기 단일 스레드 이벤트 루프를 통해 높은 처리 성능을 가진다. (Non-blocking I/O 사용)&lt;/p&gt;
+&lt;p&gt;내장 HTTP 서버 라이브러리를 포함하고 있어 웹 서버에서 아파치 등의 별도의 소프트웨어 없이 동작하는 것이 가능하며 이를 통해 웹 서버의 동작에 있어 더 많은 통제를 가능케 한다.&lt;/p&gt;
+&lt;p&gt;파일이 얼마나 업로드되었는지 알기 위해서는 서버에 쿼리를 전송해야 한다는 점을 보고 조금 더 쉬운 방법을 찾다가 고안해 내었으며 2019년 4월, Node.js v12 부터 ECMA스크립트의 공식 모듈 시스템 사용을 실험적으로 지원하기 시작했다. (그 이전까지는 서드파티인 CommonJS 모듈만을 사용해오고 있었다.)&lt;/p&gt;
+&lt;p&gt;V8 자바스크립트 엔진으로 빌드되었다.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://ko.wikipedia.org/wiki/%ED%8C%8C%EC%9D%B4%EC%8D%AC&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;파이썬&lt;/a&gt;으로 만든 &lt;a href=&quot;https://ko.wikipedia.org/wiki/%ED%8A%B8%EC%9C%84%EC%8A%A4%ED%8B%B0%EB%93%9C_(%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4)&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;트위스티드&lt;/a&gt;, &lt;a href=&quot;https://ko.wikipedia.org/wiki/%ED%8E%84&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;펄&lt;/a&gt;로 만든 &lt;a href=&quot;https://en.wikipedia.org/wiki/Perl_Object_Environment&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;펄 객체 환경&lt;/a&gt;, &lt;a href=&quot;https://ko.wikipedia.org/wiki/%EB%A3%A8%EB%B9%84_(%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D_%EC%96%B8%EC%96%B4)&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;루비&lt;/a&gt;로 만든 이벤트 머신과 그 용도가 비슷하다. &lt;strong&gt;대부분의 &lt;a href=&quot;https://ko.wikipedia.org/wiki/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;자바스크립트&lt;/a&gt;가 웹 브라우저에서 실행되는 것과는 달리,&lt;/strong&gt; &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;서버 측에서 실행된다.&lt;/strong&gt; 일부 &lt;a href=&quot;https://ko.wikipedia.org/wiki/CommonJS&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;CommonJS&lt;/a&gt; 명세&lt;a href=&quot;https://ko.wikipedia.org/wiki/Node.js#cite_note-3&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;[3]&lt;/a&gt;를 구현하고 있으며, 쌍방향 테스트를 위해 &lt;a href=&quot;https://ko.wikipedia.org/wiki/REPL&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;REPL&lt;/a&gt; 환경을 포함하고 있다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;CommonJS?&lt;/li&gt;
+&lt;li&gt;REPL?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;npm&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#npm&quot; aria-label=&quot;npm permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;npm?&lt;/h1&gt;
+&lt;p&gt;패키지 매니저인 npm은 2011년에 처음 소개되었다.&lt;/p&gt;
+&lt;h1 id=&quot;js-vs-python&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#js-vs-python&quot; aria-label=&quot;js vs python permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;js vs python&lt;/h1&gt;
+&lt;p&gt;python은 범용 언어, js는 글자 효과 같은 거 주려고 만든 언어.&lt;/p&gt;
+&lt;p&gt;Node=v8+node 런타임라이브러리&lt;/p&gt;
+&lt;p&gt;크롬=v8+렌더링엔진+기타등등&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;hello.js 를 만들자!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;node hello.js&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;jsx&quot;&gt;&lt;pre class=&quot;language-jsx&quot;&gt;&lt;code class=&quot;language-jsx&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; http &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;http&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; hostname &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;127.0.0.1&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; port &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;3000&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; server &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; http&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;createServer&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;req&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; res&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    res&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;statusCode &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;200&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    res&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;setHeader&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Content-Type&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;text/plain&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    res&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;end&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Hello World&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+server&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;listen&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;port&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; hostname&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;Server running at http://&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;hostname&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;port&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 656px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/02947decec9d3ec93653c43630b19af5/748f4/Untitled.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 54.58333333333334%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAAByklEQVQoz41RXW+bQBDk/79Vfeyv6Eur9KVO5Ua1YrmtbIyDzacDAWPuOD4PCEwWUKLKiaosGs3cHuzOsoq+voNzsOAaexwsHTvbhHMM6ExsWDAdD5Z9D5NgORMb1pG09wKHcq5L2vWhGCTMr9/gL79gsfmMK/U7vIhh8eEKPz/NMV8tMbu+weL2N2Y/bkZcz39h9WeDzVbHWt1jr2vYanssln+hRDHHmaeImEDMUsSxwJlxeE6Co8sRnCI8BBHCKEZ4iul8nnQ06SAkkPbp7iE4Qen7HlJKDFHXEm3bIghCOvU0gk3j35MTDSphrW5hOy5UbQf9YCArSogsH5EWFaGE0nUdBgyFn3VVTQ2SRECkGRgxHyAEUvqY0wSCdClrSDJR1cQpR1UWUBK62GkaGGPQiMMwHB1blkWFK9wuVygzhr5rEdKiZH5GIRg1y2iIDuudCVGVuPs4Q2JyKMOIWZ6jaVqkaYrHR3JJbgddU2dGbqSsxl9R0FhNI1HWFTmrqV5H7lPIpoa/LZCLFkqWZbSIGAM/a845LoN6vJF7nVSGEU3TRBRF8DwPtm3D9/2Xlwf+Vw/LusyNTzflFPwnLou+B29u+bWr98cTxKFDkgFz+BYAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/static/02947decec9d3ec93653c43630b19af5/8ac56/Untitled.webp 240w,
+/static/02947decec9d3ec93653c43630b19af5/d3be9/Untitled.webp 480w,
+/static/02947decec9d3ec93653c43630b19af5/31099/Untitled.webp 656w&quot;
+          sizes=&quot;(max-width: 656px) 100vw, 656px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/static/02947decec9d3ec93653c43630b19af5/8ff5a/Untitled.png 240w,
+/static/02947decec9d3ec93653c43630b19af5/e85cb/Untitled.png 480w,
+/static/02947decec9d3ec93653c43630b19af5/748f4/Untitled.png 656w&quot;
+          sizes=&quot;(max-width: 656px) 100vw, 656px&quot;
+          type=&quot;image/png&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          src=&quot;/static/02947decec9d3ec93653c43630b19af5/748f4/Untitled.png&quot;
+          alt=&quot;2021-01-16_js0_post1/Untitled.png&quot;
+          title=&quot;2021-01-16_js0_post1/Untitled.png&quot;
+          loading=&quot;lazy&quot;
+          style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        /&gt;
+      &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Hello World!]]></title><description><![CDATA[A greeting to the world]]></description><link>https://runny.github.io//posts/hello-world</link><guid isPermaLink="false">https://runny.github.io//posts/hello-world</guid><pubDate>Fri, 01 Jan 2021 09:37:25 GMT</pubDate><content:encoded>&lt;p&gt;Hello World!&lt;/p&gt;</content:encoded></item></channel></rss>
